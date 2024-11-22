@@ -186,3 +186,17 @@ footer{
     outline: 2px solid var(--accent-color);
     outline-offset: 2px;
 }
+
+/* Additional Animations */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.input-form .expense-list, .total-section{
+    animation: fadeIn 0.5s ease-in-out;
+}
