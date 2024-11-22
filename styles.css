@@ -115,3 +115,14 @@ th{
 tbody tr:hover{
     background-color: #e6e6e6;
 }
+
+/* Total Section Styles */
+.total-section{
+   text-align: right;
+}
+
+.total-amount{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
