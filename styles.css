@@ -126,3 +126,12 @@ tbody tr:hover{
     font-weight: bold;
     color: var(--accent-color);
 }
+
+/* Footer Styles */
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.9rem;
+}
